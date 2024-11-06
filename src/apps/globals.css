@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 @layer utilities{
-  .center{
-    @apply flex justify-center items-center;
-  }
-
   .burger {
   @apply w-8 cursor-pointer relative flex flex-col gap-2 justify-center items-center;
   .line {

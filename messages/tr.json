@@ -1,0 +1,30 @@
+{
+    "Header": {
+      "login": "giriş / kayıt",
+      "about": "Hakkımızda",
+      "news": "Haberler",
+      "home": "AnaSayfa",
+      "licence": "Lisanslar",
+      "contact": "İletişim",
+      "tr": "Türkçe",
+      "en": "İngilizce"
+    },
+    "AuthMessages": {
+      "requiredEmailMessage": "Lütfen geçerli bir email giriniz.",
+      "requiredEmail": "Lütfen email alanı doldurunuz.",
+      "requiredName": "Lütfen isim alanı doldurunuz.",
+      "requiredSurname": "Lütfen soyisim alanı doldurunuz.",
+      "requiredCompany": "Lütfen şirket alanı doldurunuz.",
+      "requiredPassword": "Lütfen şifre alanı doldurunuz.",
+      "passwordMatchMessage": "Şifreler eşleşmiyor.",
+      "passwordMinMessage": "Şifre en az 8 karakter olmalıdır.",
+      "passwordLetterMessage": "Şifre en az bir harf içermelidir.",
+      "passwordNumberMessage": "Şifre en az bir rakam içermelidir.",
+      "requiredConfirmPassword": "Lütfen bu şifrenizi tekrar giriniz.",
+      "requiredPhoneNumberMessage": "Lütfen 10 haneli boşluksuz telefon numaranızı giriniz.",
+      "requiredNumberMessage": "Lütfen numara giriniz.",
+      "successMessage":"Başarılı bir şekilde kayıt oldunuz.Hesabınızı aktifleştirmek için lütfen email adresinizi kontrol ediniz.",
+      "errorMessage":"Zaten kayıtlı",
+      "oldpassword":"Eski Şifrenle Yeni Şifren Aynı Olamaz."
+    }
+  }

@@ -1,0 +1,32 @@
+{
+    "Header": {
+      "login": "login / register",
+      "about": "About us",
+      "news": "News",
+      "home": "Home",
+      "licence": "Licences",
+      "contact": "contact",
+      "tr": "Turkish",
+      "en": "English"
+    },
+    "AuthMessages": {
+      "requiredEmailMessage": "Please enter a valid email.",
+      "requiredEmail": "Please enter this email field.",
+      "requiredName": "Please enter this name field.",
+      "requiredSurname": "Please enter this surname field.",
+      "requiredCompany": "Please enter this company field.",
+      "requiredPassword": "Please enter this password field.",
+      "passwordMatchMessage": "Passwords do not match.",
+      "passwordMinMessage": "Password must be at least 8 characters.",
+      "passwordLetterMessage": "Password must contain at least one letter.",
+      "passwordNumberMessage": "Password must contain at least one number.",
+      
+      "requiredConfirmPassword": "Please enter this password again.",
+      "requiredPhoneNumberMessage": "Please enter your 10-digit phone number without spaces.",
+      "requiredNumberMessage": "Please enter a number.",
+      "successMessage":"You have successfully registered. To activate your account, please check your email address.",
+      "errorMessage":"Already registered",
+      
+      "oldpassword":"Old password is not same new"
+    }
+  }
