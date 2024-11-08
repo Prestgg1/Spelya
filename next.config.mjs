@@ -14,6 +14,11 @@ const nextConfig = {images: {
         protocol: 'https',
         hostname: 'img.daisyui.com',
         port: '',
+      },
+      {
+        protocol: 'https',
+        hostname: 'nhtagent.com',
+        port: '',
       }
     ],
   },};

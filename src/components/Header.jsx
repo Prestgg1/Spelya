@@ -155,7 +155,7 @@ const Header = () => {
                         "text-primary": locale == "tr",
                       })}
                     >
-                      <Image src="/img/turkishlogo.png" width={25} height={25} />  {t("tr")}
+                      <Image src="/img/turkishlogo.png" width={25} height={25} alt="Turkish"/>  {t("tr")}
                     </Link>
                     <Link
                       href={pathname}
@@ -164,7 +164,7 @@ const Header = () => {
                         "text-primary": locale == "en",
                       })}
                     >
-                      <Image src="/img/english.png" width={25} height={25} />   {t("en")}
+                      <Image src="/img/english.png" width={25} height={25} alt="English"/>   {t("en")}
                     </Link>
                   </ul>
                 </div>
@@ -247,7 +247,7 @@ const Header = () => {
                   "text-primary": locale == "tr",
                 })}
               >
-              <Image src="/img/turkishlogo.png" width={25} height={25} />  {t("tr")}
+              <Image src="/img/turkishlogo.png" width={25} height={25} alt="Turkish"/>  {t("tr")}
               </Link>
               <Link
                 href={pathname}
@@ -256,7 +256,7 @@ const Header = () => {
                   "text-primary": locale == "en",
                 })}
               >
-              <Image src="/img/english.png" width={25} height={25} />   {t("en")}
+              <Image src="/img/english.png" width={25} height={25} alt="English"/>   {t("en")}
               </Link>
             </ul>
           </div>

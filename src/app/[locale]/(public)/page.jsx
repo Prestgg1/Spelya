@@ -11,6 +11,7 @@ import Image from "next/image";
 import FadeIn from "../../animations/Fadein";
 import { Suspense } from "react";
 import Loading from "./loadin";
+import AnimatedBar from "@/components/AnimatedBar";
 
 export const metadata = {
   title: 'Ana Sayfa',
@@ -49,7 +50,7 @@ export default function Home() {
         <FadeIn>
         <Trail/>
         </FadeIn>
-       
+      <AnimatedBar/>
       </div>
     </>
   );

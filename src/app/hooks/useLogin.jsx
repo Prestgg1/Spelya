@@ -1,7 +1,8 @@
 "use server"
 import { cookies } from "next/headers";
 export async function useLogin() {
-  const userDataCookie = cookies().get('userData');
+  const Cookies =  await cookies()
+  const userDataCookie = Cookies.get('userData');
   if (!userDataCookie || !userDataCookie.value) {
     return false;
   }

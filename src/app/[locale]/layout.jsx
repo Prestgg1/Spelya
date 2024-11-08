@@ -4,6 +4,7 @@ import { getMessages } from 'next-intl/server';
 import { inter } from '@/app/ui/fonts';
 
 import "@/app/globals.css";
+import Whatsapp from '@/components/Whatsapp';
 export default async function LocaleLayout({
   children,
   locale
@@ -12,12 +13,15 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
+    
       <body className={`${inter.className}`}>
+      <time dateTime="2016-10-25" suppressHydrationWarning />
+
         <NextIntlClientProvider messages={messages}>
           
           {children}
         
-         
+         <Whatsapp/>
         </NextIntlClientProvider>
       </body>
     </html>
