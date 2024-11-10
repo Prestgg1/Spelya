@@ -8,7 +8,7 @@ export default function Licences() {
   const [lisanslar, setLisanslar] = useState([]);
   useEffect(() => {
     try{
-      fetch(`${process.env.NEXT_PUBLIC_API_URL}/licences`)
+      fetch(`http://localhost:3002/licences`)
       .then((res) => res.json())
       .then((data) => setLisanslar(data))
     }

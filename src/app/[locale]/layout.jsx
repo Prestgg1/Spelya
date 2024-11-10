@@ -15,7 +15,7 @@ export default async function LocaleLayout({
     <html lang={locale}>
     
       <body className={`${inter.className}`}>
-      <time dateTime="2016-10-25" suppressHydrationWarning />
+      
 
         <NextIntlClientProvider messages={messages}>
           
