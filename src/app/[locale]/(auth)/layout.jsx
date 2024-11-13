@@ -4,12 +4,12 @@ import Header from '@/components/Header';
 import "@/app/globals.css";
 import { Suspense } from 'react';
 
-import { useLogin } from '@/app/hooks/useLogin';
+import { VerifyLogin } from '@/app/libs/VerifyLogin';
 import { redirect } from 'next/navigation';
 export default async function AuthLayout({
   children,
 }) {
-  const isLoggedIn = await useLogin()
+  const isLoggedIn = await VerifyLogin()
    if(isLoggedIn){
     redirect("/dashboard")
   }

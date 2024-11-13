@@ -8,9 +8,9 @@ export default function Licences() {
   const [lisanslar, setLisanslar] = useState([]);
   useEffect(() => {
     try{
-      fetch(`http://localhost:3002/licences`)
+      fetch(`https://faux-api.com/api/v1/licences_30784527778102944 `)
       .then((res) => res.json())
-      .then((data) => setLisanslar(data))
+      .then((data) => setLisanslar(data.result))
     }
     catch(err){
       toast.error('Bir sorun oluştu')

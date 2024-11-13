@@ -23,7 +23,7 @@ export default function Single() {
       const data = await fetchPosts(id)
       setPosts(data)
     })();
-  }, [])
+  }, [id])
   if (!posts) {
     return <main className="flex min-h-full bg-white flex-col items-center justify-center py-24 w-full">
       <span className=" loading loading-ring loading-lg"></span>

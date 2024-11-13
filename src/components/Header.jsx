@@ -10,11 +10,11 @@ import { FaXmark } from "react-icons/fa6";
 import { FaGlobe, FaUser } from "react-icons/fa";
 import { useLocale, useTranslations } from "next-intl";
 import { Link, usePathname, useRouter } from "@/i18n/routing";
-import { useLogin } from "@/app/hooks/useLogin";
+import { VerifyLogin } from "@/app/libs/VerifyLogin";
 const Header = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   async function getLoginStatus() {
-    const res = await useLogin();
+    const res = await VerifyLogin();
     setIsLoggedIn(res);
   }
   useEffect(() => {
