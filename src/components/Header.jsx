@@ -29,8 +29,9 @@ const Header = () => {
         { id: "askimiz", title: "Askimiz", href: "/lisance/ourlove" },
       ],
     },
-    { id: 4, title: t("contact"), href: "/contact" },
-    { id: 5, title: t("news"), href: "/news" },
+    { id: 4, title: "SSS", href: "/sss" },
+    { id: 5, title: t("contact"), href: "/contact" },
+    { id: 6, title: t("news"), href: "/news" },
   ];
 
   useEffect(() => {

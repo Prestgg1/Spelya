@@ -10,6 +10,7 @@ export default function Footer() {
           <div className="links flex flex-col">
             <Link href="/about">Biz Kimiz?</Link>
             <Link href="/contact">Iletisim</Link>
+            <Link href="/sss">Sıkca sorulan sorular</Link>
             <span>Eposta: info@spelya.com</span>
           </div>
         </div>
@@ -31,6 +32,15 @@ export default function Footer() {
             <Link href="/contact">Gizlilik ve Güvenlik</Link>  
             <Link href="/contact">Kalıcı Sözleşmesi</Link>            
             <Link href="/contact">KVKK Aydınlatma Metni</Link>
+          </div>
+        </div>
+        <div>
+          <h1 className="text-3xl font-bold uppercase mb-5">Sosial</h1>
+          <div className="links flex flex-col">
+            <Link href="/about">Instagram</Link>
+            <Link href="/about">Facebook</Link>
+            <Link href="/contact">Linkedn</Link>  
+            <Link href="/contact">Github</Link>            
           </div>
         </div>
       </div> 
