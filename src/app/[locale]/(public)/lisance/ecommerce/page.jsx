@@ -1,17 +1,6 @@
-import Button from "@/components/Button";
-import Hood from "@/components/Hood";
-import Questions from "@/components/Questions";
-import Trail from "@/components/Trail";
 import { Link } from "@/i18n/routing";
-import { get } from "http";
-
-export const metadata = {
-  title: 'Lisanslar',
-  description: 'Lisanslarımız',
-}
- 
-
-export default async function Lisence() {
+import Button from "@/components/Button";
+export default function Ecommerce(){
   const licenseData = [
     {
       feature: "Komisyon uygulanmaz",
@@ -56,12 +45,8 @@ export default async function Lisence() {
       pro: true
     }
   ];
-  return (
-    <main className="flex min-h-full bg-white flex-col items-center justify-center py-24 w-full">
-
-      <Hood title="Our Licences" hood="Licences" paragraf="Mastering the Art of AI Tool: Unleashing the Power of Automated Creativity with AIMug" />
-      {/*  <Licences /> */}
-      <div className="overflow-x-auto ">
+    return (
+        <div className="overflow-x-auto ">
         <table className="min-w-full border-collapse border border-gray-300 hidden md:block table-zebra">
           <thead>
             <tr>
@@ -165,11 +150,6 @@ export default async function Lisence() {
 
         </div>
       </div>
-      <div className="container space-y-2 my-5">
-        <Questions />
-        <Trail />
-      </div>
-
-    </main>
-  );
+    )
+    
 }
